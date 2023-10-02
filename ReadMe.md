@@ -3,7 +3,7 @@
  
 ### [Урок 1.](/Lesson01/Homework)
 
-### [Урок 2.](/Lesson02/Homework2)
+### [Урок 2.](/Lesson02/homework2)
 
 [//]: # (### [Урок 3.]&#40;/Lesson03/HomeWork&#41;)
 
