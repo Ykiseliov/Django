@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Заказанные товары клиента</title>
+</head>
+<body>
+    <h1>Заказанные товары клиента {{ client.name }}</h1>
+    <h2>За последние {{ days }} дней</h2>
+
+    <ul>
+        {% for product in unique_products %}
+            <li>{{ product.name }} - {{ product.description }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
