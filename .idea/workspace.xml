@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="590e7cc7-5ba5-43a5-a55d-d02b50520f6d" name="Changes" comment="Add&amp;&amp;Update">
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/Prj03/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/Prj03/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/Prj03/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/Prj03/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/Prj03/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/addOrder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/addProducts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/add_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/delAllClients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/delAllProducts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/delClient.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/delProductByID.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/getProducts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/get_allClients.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/management/commands/list_order.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/all_products.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/client_orders.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/templates/product_form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H04/Prj03/myapp/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Tested" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WI27mekLA8zaT4cUgceIAkr1LS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/ykise/PycharmProjects/Tested/Django",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django" />
+      <recent name="C:\Users\ykise\PycharmProjects\Django\Lesson03" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H03\Prj03\myapp" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H03\Prj03\myapp\management\commands" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H04\Prj03\myapp\templates" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H04\Prj03\myapp\templates\myapp" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="590e7cc7-5ba5-43a5-a55d-d02b50520f6d" name="Changes" comment="" />
+      <created>1696405609991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696405609991</updated>
+      <workItem from="1696405610971" duration="12105000" />
+      <workItem from="1696427380931" duration="484000" />
+      <workItem from="1696440328931" duration="120000" />
+      <workItem from="1696487789370" duration="1038000" />
+      <workItem from="1696515362960" duration="3000" />
+      <workItem from="1696688674150" duration="2000" />
+      <workItem from="1696694673407" duration="2000" />
+      <workItem from="1696748579407" duration="1000" />
+      <workItem from="1696831626546" duration="16000" />
+      <workItem from="1696831724525" duration="10708000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696408469975</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696408469975</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696408579997</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696408579997</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696419162812</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696419162812</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696427665014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696427665014</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696427678904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696427678904</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696488817081</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696488817081</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add&amp;&amp;Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add&amp;&amp;Update" />
+  </component>
+</project>
