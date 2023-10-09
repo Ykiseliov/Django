@@ -7,7 +7,7 @@
 
 ### [Урок 3.](/Lesson03/Homework)
 
-[//]: # (### [Урок 4.]&#40;/Lesson04/Homework&#41;)
+### [Урок 4.](/Lesson04/Prj03)
 
 [//]: # (### [Урок 5.]&#40;/Lesson05/Homework&#41;)
 
