@@ -8,15 +8,25 @@ from .forms import ProductForm, ProductFilterForm, ProductPhotoForm, OrderForm
 
 def index(request):
     return render(request, 'index.html')
+
+def order(request):
+    return render(request, 'order.html')
+
+def product(request):
+    return render(request, 'product.html')
+
+def client(request):
+    return render(request, 'client.html')
+
 def product_create(request):
     if request.method == 'POST':
         form = ProductForm(request.POST, request.FILES)
         if form.is_valid():
             product = form.save()
-            return redirect('product_detail', product_id=product.pk)
+            return redirect('product/product_detail', product_id=product.pk)
     else:
         form = ProductForm()
-    return render(request, 'product_form.html', {'form': form})
+    return render(request, 'product/product_form.html', {'form': form})
 
 
 def product_detail(request, product_id):
@@ -26,7 +36,7 @@ def product_detail(request, product_id):
         'product': product,
     }
 
-    return render(request, 'product_detail.html', context)
+    return render(request, 'product/product_detail.html', context)
 def client_orders(request, client_id, days):
     client = Client.objects.get(pk=client_id)
     end_date = timezone.now()
@@ -47,15 +57,15 @@ def client_orders(request, client_id, days):
         'days': days,
     }
 
-    return render(request, 'client_orders.html', context)
+    return render(request, 'client/client_orders.html', context)
 
 def order_detail(request, order_id):
     order = get_object_or_404(Order, id=order_id)
-    return render(request, 'order_detail.html', {'order': order})
+    return render(request, 'order/order_detail.html', {'order': order})
 
 def order_list(request):
     orders = Order.objects.all()
-    return render(request, 'order_list.html', {'orders': orders})
+    return render(request, 'order/order_list.html', {'orders': orders})
 
 
 from django.shortcuts import render, redirect
@@ -71,11 +81,11 @@ def create_order(request):
             order.save()
             order.products.set(form.cleaned_data['products'])  # Связываем выбранные товары с заказом
 
-            return redirect('order_list')
+            return redirect('order/order_list')
     else:
         form = OrderForm()
 
-    return render(request, 'order_form.html', {'form': form})
+    return render(request, 'order/order_form.html', {'form': form})
 
 
 
@@ -86,13 +96,13 @@ def all_products(request):
 
     if filter_form.is_valid():
 
-        return render(request, 'all_products.html', {'products': products, 'filter_form': filter_form, 'photo_form': photo_form})
+        return render(request, 'product/all_products.html', {'products': products, 'filter_form': filter_form, 'photo_form': photo_form})
 
 def client_detail(request, client_id):
     client = Client.objects.get(pk=client_id)
-    return render(request, 'client_detail.html', {'client': client})
+    return render(request, 'client/client_detail.html', {'client': client})
 
 def client_list(request):
     clients = Client.objects.all()
-    return render(request, 'client_list.html', {'clients': clients})
+    return render(request, 'client/client_list.html', {'clients': clients})
 
