@@ -5,105 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="590e7cc7-5ba5-43a5-a55d-d02b50520f6d" name="Changes" comment="Add&amp;&amp;Update">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/Prj03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/Prj03/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/Prj03/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/Prj03/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/Prj03/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/media/product_photos/photo_2022-11-06_13-55-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_H4Jwkf0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_RDd8WDH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_nHdPSLc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/addOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/addProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/add_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/delAllClients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/delAllProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/delClient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/delProductByID.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/getProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/get_allClients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/management/commands/list_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/migrations/0002_product_photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/migrations/0003_alter_order_total_amount.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/all_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/client_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/client_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/client_orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/order_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/product_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/templates/product_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson05/Prj03/myapp/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/Prj03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/Prj03/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/Prj03/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/Prj03/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/Prj03/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/media/product_photos/photo_2022-11-06_13-55-47.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_H4Jwkf0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_RDd8WDH.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/media/product_photos/photo_2022-11-06_13-55-47_nHdPSLc.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/addOrder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/addProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/add_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/delAllClients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/delAllProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/delClient.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/delProductByID.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/getProducts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/get_allClients.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/list_order.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/migrations/0002_product_photo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/all_products.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/product_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/product_form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/management/commands/listOrderID.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tested/DjangoComm.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/DjangoComm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/all_products.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/all_products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client_orders.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/client/client_orders.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/order/order_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/product_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/templates/product/product_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Tested/Django/H05/Prj03/myapp/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -147,24 +62,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ykise/PycharmProjects/Django/Lesson05",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "editor.preferences.tabs",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ykise/PycharmProjects/Django/Lesson05&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ykise\PycharmProjects\Django\Lesson05" />
@@ -174,11 +89,11 @@
       <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H03\Prj03\myapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp\templates\order" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp\management\commands" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp" />
+      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp\management" />
       <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp\templates\client" />
       <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H05\Prj03\myapp\templates\product" />
-      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H04\Prj03\myapp\templates" />
-      <recent name="C:\Users\ykise\PycharmProjects\Tested\Django\H04\Prj03\myapp\templates\myapp" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -202,7 +117,9 @@
       <workItem from="1696847159472" duration="1488000" />
       <workItem from="1696856601118" duration="4860000" />
       <workItem from="1696880248174" duration="1724000" />
-      <workItem from="1696887502136" duration="10199000" />
+      <workItem from="1696887502136" duration="10526000" />
+      <workItem from="1696902154298" duration="4000" />
+      <workItem from="1697116098777" duration="2738000" />
     </task>
     <task id="LOCAL-00001" summary="Add&amp;&amp;Update">
       <option name="closed" value="true" />
@@ -276,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696852081646</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add&amp;&amp;Update">
+      <option name="closed" value="true" />
+      <created>1696900628097</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696900628097</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
